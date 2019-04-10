@@ -1,0 +1,70 @@
+.utama {
+	background: maroon;
+	margin: 10px auto;
+}
+ 
+/*bagian header*/
+.utama .header{
+	background: #800000;
+	/*height: 50px;*/
+	padding: 2px 10px;
+	font-family: Buxton Sketch;
+	text-align: center;
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.utama .menu{
+	background: #ffc0cb;
+}
+ 
+.utama .menu ul{
+	padding: 0;
+	margin: 0;
+	background: #008B8B;
+	overflow: hidden;
+	font-family: Bradley Hand ITC;
+	font-weight: bold;
+}
+ 
+.utama .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.utama .badan .sidebar{
+	background: #ffc0cb;
+	float: left;	
+	width: 25%;
+	height: 100%;
+	font-family: Segoe Print;
+}
+ 
+/*akhir sidebar*/
+ 
+.utama .badan .content{
+	background: #ffc0cb;
+	float: left;
+	height: 100%;
+	width: 75%;	
+}
+ 
+.utama .footer{
+	width: 100%;
+	padding: 10px;
+	font-style: italic;
+	font-family: MV Boli;
+	text-align: center;
+	background: #008B8B;
+}
